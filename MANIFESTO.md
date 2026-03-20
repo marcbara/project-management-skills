@@ -1,19 +1,27 @@
 # Manifesto
+*v1.0, March 2026*
 
-For decades, project managers have spent most of their time producing artifacts. Risk registers, status reports, stakeholder matrices, Gantt charts, variance analyses, project charters. The profession trained us to believe that producing these things well *is* the job. It is not. It never was. But until now, there was no alternative. Someone had to build the register and calculate the variance. That someone was the project manager, because nobody else would.
+**The job of a project manager is to deliver through people, not to fill templates.**
 
-That constraint no longer exists.
+For decades, producing management artifacts took so much of the PM's time that it crowded out the rest of the practice. We built risk registers, updated Gantt charts, and produced stakeholder matrices, not because we thought that was the whole job, but because someone had to do it, and until now that someone was us.
 
-Large language models in 2025 and 2026 reached a level where they can reliably draft a project charter from a set of inputs, populate a risk register with quantified probabilities, run earned value calculations and explain the forecast, generate a stakeholder engagement plan with differentiated strategies per quadrant, and produce a status report that a sponsor can actually read. Not perfectly. Not without review. But well enough that a project manager spending four hours on these tasks is now spending three hours and fifty minutes more than necessary.
+**That excuse is gone.**
 
-**This changes what the job looks like.** Not because AI "transforms" project management (it does not), but because it removes the excuse. When producing artifacts took most of your day, you could reasonably claim that updating the risk register *was* risk management. You cannot claim that anymore. The register takes ten minutes now. The question becomes: what are you doing with the rest of your day?
+AI can draft a project charter in minutes, populate a risk register, run earned value calculations, and generate a stakeholder engagement plan. Not perfectly, and not without the PM's review and judgment, but well enough that four hours of drafting now takes ten minutes.
 
-The answer should be obvious, and it is the thing most project managers have been doing too little of. Talking to people. Having the conversation with the sponsor about why the deadline is unrealistic. Sitting with the team lead who has been quiet for two weeks. Calling the vendor who missed a deliverable instead of sending another email. Reading a room. Building the trust that makes people tell you bad news early instead of hiding it until it becomes a crisis.
+The question is no longer *how do I produce these artifacts faster.* It is **what are you doing with the rest of your day?**
 
-This is the actual practice of project management. It is human, it is uncomfortable, and no model can do it. A model has no relationship with your team. It does not know that the architect's silence in the last three standups means something. It cannot tell that the client's "small clarification" is really a scope change they are trying to slip in without a change request. It has no judgment about when to escalate and when to absorb a problem quietly.
+---
 
-These skills handle the part that models are good at. The analytical work, the documentation, the calculations, the structured outputs that follow predictable patterns. They encode real project management practice, not textbook summaries. They include the failure modes and the organizational dysfunctions, because knowing what goes wrong matters more than knowing the ideal process.
+1. **AI accelerates the production of project management artifacts, nothing more.** It does not manage projects, it does not make decisions, and it does not replace the PM. It reduces the time you spend drafting so you can spend more of it on what actually determines whether the project succeeds or fails.
+2. **A risk register is not risk management.** Risk management is getting people to surface threats and uncertainties early enough that you can still do something about them.
+3. **A status report is not communication.** Communication is saying what needs to be said to the person who needs to hear it, even when it is uncomfortable.
+4. **A stakeholder matrix is not stakeholder engagement.** Engagement is knowing what your stakeholders actually want, not what they say in meetings.
+5. **A Gantt chart is not schedule control.** Schedule control is knowing which variance will move the critical path and which one you can absorb.
+6. **The job is people.** The hard conversations, the politics, the judgment calls: no model can do this, and no artifact is a substitute for it.
 
-The rest is yours. The people, the politics, the decisions that require 20 years of experience to get right, or sometimes to get wrong in a way that teaches you something no skill file can capture.
+---
 
-Every hour a model saves you on documentation is an hour you can invest in leading. This library exists to make that trade possible.
+This library handles the part that machines are good at: the analytical work, the documentation, the calculations, the structured outputs that follow predictable patterns. It encodes real practice, including failure modes and organizational dysfunctions, because knowing what goes wrong matters more than knowing the ideal process.
+
+The rest is yours: the decisions that take years of experience to get right, or sometimes to get wrong in a way that teaches you something no skill file can capture. Every hour a model saves you on producing artifacts is an hour you can invest in delivering through people, and **that is the trade this library exists to make possible.**

@@ -9,6 +9,14 @@
         "./skills/document-analysis",
         "./skills/scope-management",
         "./skills/schedule-management"
+      ],
+      "commands": [
+        "./commands/plan-project.md",
+        "./commands/health-check.md",
+        "./commands/takeover.md"
+      ],
+      "agents": [
+        "./agents/project-advisor.md"
       ]
     }
   ]
