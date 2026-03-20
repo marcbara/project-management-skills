@@ -1,0 +1,15 @@
+{
+  "plugins": [
+    {
+      "name": "project-management-skills",
+      "description": "Project management skills for evidence-based project delivery. Encode practitioner judgment, anti-patterns, and organizational reality.",
+      "source": ".",
+      "skills": [
+        "./skills/project-charter",
+        "./skills/document-analysis",
+        "./skills/scope-management",
+        "./skills/schedule-management"
+      ]
+    }
+  ]
+}

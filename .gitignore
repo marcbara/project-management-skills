@@ -1,0 +1,19 @@
+# Claude Code local settings
+.claude/
+
+# Internal working docs
+project.md
+backlog.md
+references/
+
+# OS files
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Editor files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
