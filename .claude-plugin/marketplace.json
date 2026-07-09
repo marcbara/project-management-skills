@@ -1,0 +1,47 @@
+{
+  "name": "project-management-skills",
+  "description": "Project management skills that encode practitioner judgment, anti-patterns, and organizational reality — not textbook definitions.",
+  "owner": {
+    "name": "Marc Bara",
+    "url": "https://www.projectworklab.com"
+  },
+  "plugins": [
+    {
+      "name": "project-management-skills",
+      "description": "Project management skills for evidence-based project delivery. Encode practitioner judgment, anti-patterns, and organizational reality.",
+      "source": ".",
+      "skills": [
+        "./skills/project-charter",
+        "./skills/document-analysis",
+        "./skills/scope-management",
+        "./skills/schedule-management"
+      ],
+      "commands": [
+        "./commands/plan-project.md",
+        "./commands/health-check.md",
+        "./commands/takeover.md",
+        "./commands/charter.md",
+        "./commands/charter-review.md",
+        "./commands/stakeholder-map.md",
+        "./commands/risk-snapshot.md",
+        "./commands/budget-snapshot.md",
+        "./commands/consistency-check.md",
+        "./commands/document-audit.md",
+        "./commands/gap-analysis.md",
+        "./commands/contradiction-report.md",
+        "./commands/scope-statement.md",
+        "./commands/wbs.md",
+        "./commands/wbs-review.md",
+        "./commands/schedule.md",
+        "./commands/critical-path.md",
+        "./commands/compress-schedule.md",
+        "./commands/schedule-risks.md",
+        "./commands/milestone-plan.md",
+        "./commands/schedule-export.md"
+      ],
+      "agents": [
+        "./agents/project-advisor.md"
+      ]
+    }
+  ]
+}
