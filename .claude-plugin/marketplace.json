@@ -14,7 +14,8 @@
         "./skills/project-charter",
         "./skills/document-analysis",
         "./skills/scope-management",
-        "./skills/schedule-management"
+        "./skills/schedule-management",
+        "./skills/risk-management"
       ],
       "commands": [
         "./commands/plan-project.md",
@@ -37,7 +38,9 @@
         "./commands/compress-schedule.md",
         "./commands/schedule-risks.md",
         "./commands/milestone-plan.md",
-        "./commands/schedule-export.md"
+        "./commands/schedule-export.md",
+        "./commands/risk-register.md",
+        "./commands/risk-review.md"
       ],
       "agents": [
         "./agents/project-advisor.md"

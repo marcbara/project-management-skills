@@ -32,6 +32,8 @@ If only one or two documents are provided, skip to Step 3 and work from the user
 
 Based on everything gathered, produce a current risk picture. Focus on risks that are specific to this project's situation — not textbook risks.
 
+If the project has an existing risk register, run `/risk-review` on it first — a register full of vague entries is itself a health signal (risk theater), and the rewritten entries feed a more honest risk picture.
+
 ### Step 4: Budget Pressure → `/budget-snapshot`
 
 If financial information is available, produce the budget snapshot showing pressure points. If no financial data exists, flag that as a gap.

@@ -72,6 +72,11 @@ Schedule development, critical path, and compression. Commands: `/schedule`, `/c
 
 Use when: Building a schedule, analyzing the critical path, compressing timelines, identifying schedule risks, exporting to MS Project.
 
+### risk-management
+Working risk registers with root-cause/incident/impact discipline. Commands: `/risk-register`, `/risk-review`.
+
+Use when: Building the project's working risk register or auditing and rewriting an existing one. For the 5-8 charter-level risks a sponsor needs, use `/risk-snapshot` (project-charter) instead — the snapshot frames, the register operates.
+
 ## Orchestration Patterns
 
 When the user's request spans multiple skills, chain them in a logical sequence. Here are the common patterns:
@@ -82,8 +87,9 @@ When the user's request spans multiple skills, chain them in a logical sequence.
 3. `/wbs` — Decompose scope to activity level
 4. `/schedule` — Build schedule with dependencies and critical path
 5. `/milestone-plan` — Extract executive-level milestones for steering committee
+6. `/risk-register` — Build the working risk register from everything above
 
-Do not run all five automatically. After each step, check with the user: does this look right? Should we adjust before moving to the next step? Each output feeds the next — errors compound.
+Do not run all steps automatically. After each step, check with the user: does this look right? Should we adjust before moving to the next step? Each output feeds the next — errors compound.
 
 ### Project Takeover
 1. `/document-audit` or `/consistency-check` — Understand the real state from the paper trail
@@ -91,6 +97,7 @@ Do not run all five automatically. After each step, check with the user: does th
 3. `/gap-analysis` — Identify what information is missing
 4. `/charter` or `/charter-review` — Either produce a new charter or review the existing one
 5. `/stakeholder-map` — Map the political landscape you are walking into
+6. `/risk-review` — If a risk register was inherited, audit its quality before trusting it; rewrite the entries that are mush
 
 ### Schedule Under Pressure
 1. `/critical-path` — Identify what is actually driving the end date
@@ -100,7 +107,7 @@ Do not run all five automatically. After each step, check with the user: does th
 
 ### Pre-Steering Committee Preparation
 1. `/consistency-check` or `/document-audit` — Cross-check current project documents
-2. `/risk-snapshot` — Updated risk picture
+2. `/risk-snapshot` — Updated risk picture (if a working register exists, `/risk-review` it first)
 3. `/budget-snapshot` — Financial pressure points
 4. `/milestone-plan` — Status against key gates
 

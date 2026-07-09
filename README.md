@@ -4,8 +4,8 @@ Project management skills for AI coding assistants. Encode practitioner judgment
 
 ## What's Inside
 
-- **4 skills** — Universal, work on any platform that supports the Agent Skills standard
-- **21 commands** — 18 skill commands plus 3 end-to-end workflows: `/plan-project`, `/health-check`, `/takeover` (Claude Code only)
+- **5 skills** — Universal, work on any platform that supports the Agent Skills standard
+- **23 commands** — 20 skill commands plus 3 end-to-end workflows: `/plan-project`, `/health-check`, `/takeover` (Claude Code only)
 - **1 agent** — Project advisor that orchestrates skills into workflows (Claude Code only)
 
 ## Install
@@ -43,6 +43,7 @@ Full command documentation lives in each SKILL.md — the README only indexes th
 | [document-analysis](skills/document-analysis/SKILL.md) | Cross-check documents for contradictions, gaps, and evolving risks | `/consistency-check` `/document-audit` `/gap-analysis` `/contradiction-report` |
 | [scope-management](skills/scope-management/SKILL.md) | Scope with negotiation transparency; WBS following the 100% rule | `/scope-statement` `/wbs` `/wbs-review` |
 | [schedule-management](skills/schedule-management/SKILL.md) | Critical path, compression, milestone planning, MS Project XML export | `/schedule` `/critical-path` `/compress-schedule` `/schedule-risks` `/milestone-plan` `/schedule-export` |
+| [risk-management](skills/risk-management/SKILL.md) | Risk registers with root-cause/incident/impact discipline; entries you can actually monitor | `/risk-register` `/risk-review` |
 
 ## Workflows (Claude Code only)
 
